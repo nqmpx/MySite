@@ -1,0 +1,100 @@
+body {
+    background-color: #1a0e21;
+    background-image: linear-gradient(45deg, #1a0e21 0%, #9d50bb 50%, #ff6f61 100%);
+    background-attachment: fixed;
+}
+
+.avt {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 80%;
+    display: block;
+    margin: 5% auto 0;
+}
+
+.name {
+    margin-top: 2%;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+.description {
+    margin: 0 auto;
+    text-align: center;
+    font-size: medium;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    text-align: center;
+}
+
+.button {
+    margin-top: 20px;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 440px;
+    max-width: 100%;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button:focus {
+    color: #171e29;
+}
+
+.button:hover, .button:active {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+}
+
+@media (max-width: 800px) {
+    .button {
+        width: 100%;
+        min-width: unset;
+        padding: 0 10px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
